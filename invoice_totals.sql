@@ -9,4 +9,4 @@ SELECT
 FROM Employee as emp
 JOIN Customer as c on c.SupportRepId = emp.EmployeeId
 JOIN Invoice as i on i.CustomerId = c.CustomerId
-ORDER BY c.LastName DESC;
+ORDER BY c.LastName ASC;
